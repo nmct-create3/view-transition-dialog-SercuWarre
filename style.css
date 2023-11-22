@@ -1,0 +1,36 @@
+@import "https://unpkg.com/open-props";
+
+/* define keyframes here */
+
+:root {
+    --duration-xx-fast: 100ms;
+    --duration-x-fast: 200ms;
+    --duration-fast: 300ms;
+    --duration: 400ms;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+
+img,
+svg {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
